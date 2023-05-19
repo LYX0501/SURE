@@ -31,13 +31,11 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Output | Act of salesperson in the next dialog round |
 | Metrics | Act F1 |
 | Sub-Task #3-2 | Multimodal Recommendation - Response Generation |
-|---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To generate the salesperson's utterance in the next dialog round |
 | Input | Dialogue context, Multimodal context |
 | Output | Salesperson's utterance in the next dialog round |
 | Metrics | BLEU-4 |
 | Sub-Task #3-3 | Multimodal Recommendation - Item Recommendation |
-|---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To predict the target object in the last round of dialog |
 | Input | Dialogue context, Multimodal context |
 | Output | Target object ID |
