@@ -12,14 +12,14 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 ### Tasks and Metrics
 | Sub-Task #1 | Subjective Preference Disambiguation |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Goal | To determine candidate attribute values. |
+| Goal | To determine candidate attribute values according subjective preference. |
 | Input | Dialog history with subjective preference in the latest round, Multimodal context |
 | Output |  Candidate attribute values |
 | Metrics | Disam F1 / Precision / Recall |
 
 | Sub-Task #2 | Referred Region Understanding |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Goal | To determine candidate object IDs. |
+| Goal | To determine candidate object IDs according to regional reference. |
 | Input | Dialog history with regional reference in the latest round, Multimodal context |
 | Output |  Candidate object IDs |
 | Metrics |  Refer F1 / Precision / Recall |
@@ -42,5 +42,8 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Metrics | Recom F1 |
 
 ## Citation
+If you want to publish experimental results with our datasets or use the baseline models, please cite the following articles:
+
 
 ## Lisence
+SURE is released under [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode), see [LICENSE](LICENSE) for details.
