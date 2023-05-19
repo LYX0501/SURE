@@ -4,6 +4,6 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 
 
 <figure>
-<img src="./overview-sure.png" width="400" alt="Illustration of the SURE Dataset" align="center"> 
+<img src="./overview-sure.png" width="600" alt="Illustration of the SURE Dataset" align="center"> 
 <figcaption><i>Illustration of the SURE Dataset</i></figcaption> 
 </figure>
