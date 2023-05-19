@@ -17,14 +17,14 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Output |  Canonical object IDs |
 | Metrics | Object Identification F1 / Precision / Recall |
 
-| Sub-Task #2 | Referred Region Understandin |
+| Sub-Task #2 | Referred Region Understanding |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To resolve referent objects to thier canonical ID(s) as defined by the catalog. |
 | Input | Current user utterance, Dialog context, Multimodal context |
 | Output |  Canonical object IDs |
 | Metrics |  Coref F1 / Precision / Recall |
 
-| Sub-Task #3 | Multimodal Recommendatio |
+| Sub-Task #3 | Multimodal Recommendation |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To track user belief states across multiple turns |
 | Input | Current user utterance, Dialogue context, Multimodal context |
