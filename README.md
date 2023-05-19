@@ -12,19 +12,33 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 ### Tasks and Metrics
 | Sub-Task #1 | Subjective Preference Disambiguation |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Goal | Given ambiguous object mentions, to resolve referent objects to thier canonical ID(s). |
-| Input | Current user utterance, Dialog context, Multimodal context |
-| Output |  Canonical object IDs |
-| Metrics | Object Identification F1 / Precision / Recall |
+| Goal | Given customer utterances with subjective preference, to determine candidate attribute values. |
+| Input | Current user utterance, Dialog History, Multimodal context |
+| Output |  Candidate attribute values |
+| Metrics | Disam F1 / Precision / Recall |
 
 | Sub-Task #2 | Referred Region Understanding |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Goal | To resolve referent objects to thier canonical ID(s) as defined by the catalog. |
-| Input | Current user utterance, Dialog context, Multimodal context |
+| Goal | Given dialog history with region referring, to determine candidate object IDs. |
+| Input | Dialog context, Multimodal context |
 | Output |  Canonical object IDs |
-| Metrics |  Coref F1 / Precision / Recall |
+| Metrics |  Refer F1 / Precision / Recall |
 
-| Sub-Task #3 | Multimodal Recommendation |
+| Sub-Task #3-1 | Multimodal Recommendation - Act Prediction |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Goal | To track user belief states across multiple turns |
+| Input | Current user utterance, Dialogue context, Multimodal context |
+| Output | Belief state for current user utterance |
+| Metrics | Slot F1, Intent F1 |
+
+| Sub-Task #3-2 | Multimodal Recommendation - Response Generation |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Goal | To track user belief states across multiple turns |
+| Input | Current user utterance, Dialogue context, Multimodal context |
+| Output | Belief state for current user utterance |
+| Metrics | Slot F1, Intent F1 |
+
+| Sub-Task #3-3 | Multimodal Recommendation - Item Recommendation |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To track user belief states across multiple turns |
 | Input | Current user utterance, Dialogue context, Multimodal context |
