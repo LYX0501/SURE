@@ -21,7 +21,7 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To determine candidate object IDs. |
 | Input | Dialog history with regional reference, Multimodal context |
-| Output |  Canonical object IDs |
+| Output |  Candidate object IDs |
 | Metrics |  Refer F1 / Precision / Recall |
 
 | Sub-Task #3-1 | Multimodal Recommendation - Act Prediction |
@@ -34,7 +34,7 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Goal | To generate the salesperson's utterance in the next dialog round |
 | Input | Dialogue history, Multimodal context |
 | Output | Salesperson's utterance in the next dialog round |
-| Metrics | BLEU-4 |
+| Metrics | BLEU-4 / ROUGH-L / METEOR |
 | **Sub-Task #3-3** | **Multimodal Recommendation - Item Recommendation** |
 | Goal | To predict the target object in the last round of dialog |
 | Input | Dialogue history without last round, Multimodal context |
