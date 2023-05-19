@@ -12,32 +12,32 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 ### Tasks and Metrics
 | Sub-Task #1 | Subjective Preference Disambiguation |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Goal | Given customer utterances with subjective preference, to determine candidate attribute values. |
-| Input | Dialog History, Multimodal context |
+| Goal | To determine candidate attribute values. |
+| Input | Dialog history with subjective preference, Multimodal context |
 | Output |  Candidate attribute values |
 | Metrics | Disam F1 / Precision / Recall |
 
 | Sub-Task #2 | Referred Region Understanding |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Goal | Given dialog history with region referring, to determine candidate object IDs. |
-| Input | Dialog context, Multimodal context |
+| Goal | To determine candidate object IDs. |
+| Input | Dialog history with regional reference, Multimodal context |
 | Output |  Canonical object IDs |
 | Metrics |  Refer F1 / Precision / Recall |
 
 | Sub-Task #3-1 | Multimodal Recommendation - Act Prediction |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To predict the salesperson's act in the next dialog round |
-| Input | Dialogue context, Multimodal context |
+| Input | Dialogue history, Multimodal context |
 | Output | Act of salesperson in the next dialog round |
 | Metrics | Act F1 |
 | **Sub-Task #3-2** | **Multimodal Recommendation - Response Generation** |
 | Goal | To generate the salesperson's utterance in the next dialog round |
-| Input | Dialogue context, Multimodal context |
+| Input | Dialogue history, Multimodal context |
 | Output | Salesperson's utterance in the next dialog round |
 | Metrics | BLEU-4 |
 | **Sub-Task #3-3** | **Multimodal Recommendation - Item Recommendation** |
 | Goal | To predict the target object in the last round of dialog |
-| Input | Dialogue context, Multimodal context |
+| Input | Dialogue history without last round, Multimodal context |
 | Output | Target object ID |
 | Metrics | Recom F1 |
 
