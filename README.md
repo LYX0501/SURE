@@ -8,6 +8,7 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 <figcaption><i>Illustration of the SURE Dataset</i></figcaption> 
 </figure>
 
+## Tasks and Metrics
 | Sub-Task #1 | [Subjective Preference Disambiguatio](model/ambiguous_candidates) |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | Given ambiguous object mentions, to resolve referent objects to thier canonical ID(s). |
