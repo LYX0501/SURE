@@ -10,21 +10,21 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 
 ## Track Description
 ### Tasks and Metrics
-| Sub-Task #1 | [Subjective Preference Disambiguatio](model/ambiguous_candidates) |
+| Sub-Task #1 | Subjective Preference Disambiguation |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | Given ambiguous object mentions, to resolve referent objects to thier canonical ID(s). |
 | Input | Current user utterance, Dialog context, Multimodal context |
 | Output |  Canonical object IDs |
 | Metrics | Object Identification F1 / Precision / Recall |
 
-| Sub-Task #2 | [Referred Region Understandin](model/mm_dst) |
+| Sub-Task #2 | Referred Region Understandin |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To resolve referent objects to thier canonical ID(s) as defined by the catalog. |
 | Input | Current user utterance, Dialog context, Multimodal context |
 | Output |  Canonical object IDs |
 | Metrics |  Coref F1 / Precision / Recall |
 
-| Sub-Task #3 | [Multimodal Recommendatio](model/mm_dst) |
+| Sub-Task #3 | Multimodal Recommendatio |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To track user belief states across multiple turns |
 | Input | Current user utterance, Dialogue context, Multimodal context |
