@@ -13,7 +13,7 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Sub-Task #1 | Subjective Preference Disambiguation |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | Given customer utterances with subjective preference, to determine candidate attribute values. |
-| Input | Current user utterance, Dialog History, Multimodal context |
+| Input | Dialog History, Multimodal context |
 | Output |  Candidate attribute values |
 | Metrics | Disam F1 / Precision / Recall |
 
@@ -26,21 +26,21 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 
 | Sub-Task #3-1 | Multimodal Recommendation - Act Prediction |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Goal | To track user belief states across multiple turns |
-| Input | Current user utterance, Dialogue context, Multimodal context |
-| Output | Belief state for current user utterance |
-| Metrics | Slot F1, Intent F1 |
+| Goal | To predict the salesperson's act in the next dialog round |
+| Input | Dialogue context, Multimodal context |
+| Output | Act of salesperson in the next dialog round |
+| Metrics | Act F1 |
 
 | Sub-Task #3-2 | Multimodal Recommendation - Response Generation |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Goal | To track user belief states across multiple turns |
-| Input | Current user utterance, Dialogue context, Multimodal context |
-| Output | Belief state for current user utterance |
-| Metrics | Slot F1, Intent F1 |
+| Goal | To generate the salesperson's utterance in the next dialog round |
+| Input | Dialogue context, Multimodal context |
+| Output | Salesperson's utterance in the next dialog round |
+| Metrics | BLEU-4 |
 
 | Sub-Task #3-3 | Multimodal Recommendation - Item Recommendation |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Goal | To track user belief states across multiple turns |
-| Input | Current user utterance, Dialogue context, Multimodal context |
-| Output | Belief state for current user utterance |
-| Metrics | Slot F1, Intent F1 |
+| Goal | To predict the target object in the last round of dialog |
+| Input | Dialogue context, Multimodal context |
+| Output | Target object ID |
+| Metrics | Recom F1 |
