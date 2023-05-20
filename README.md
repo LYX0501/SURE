@@ -15,7 +15,7 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Goal | To determine candidate attribute values according subjective preference. |
 | Input | Dialog history with subjective preference in the latest round, Multimodal context |
 | Output | Candidate attribute values |
-| Example | Customer: "I prefer color of happiness." → yellow, brown, red |
+| Example | Customer: "I prefer color of happiness." <br> → yellow, brown, red |
 | Metrics | Disam F1 / Precision / Recall |
 
 | Sub-Task #2 | Referred Region Understanding |
@@ -31,6 +31,7 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Goal | To predict the salesperson's act in the next dialog round |
 | Input | Dialogue history, Multimodal context |
 | Output | Act of salesperson in the next dialog round |
+| Example | Salesperson: "The price $299 is too expensive for me to afford" <br> → Revise Attribute |
 | Metrics | Act F1 |
 | **Sub-Task #3-2** | **Multimodal Recommendation - Response Generation** |
 | Goal | To generate the salesperson's utterance in the next dialog round |
