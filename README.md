@@ -23,7 +23,7 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Goal | To determine candidate object IDs according to regional reference. |
 | Input | Dialog history with regional reference in the latest round, Multimodal context |
 | Output |  Candidate object IDs |
-| Example | A:"Come with me to look at the shelf on the right. Are there any clothes that you like?" U:Sorry, there is no garment that I am looking for in this region. → 12, 13, 16, 22, 31 |
+| Example | Salesperson: "Come with me to look at the shelf on the right. Are there any clothes that you like?" Customer: "Sorry, there is no garment that I am looking for in this region." → 12, 13, 16, 22, 31 |
 | Metrics |  Refer F1 / Precision / Recall |
 
 | Sub-Task #3-1 | Multimodal Recommendation - Act Prediction |
