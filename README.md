@@ -14,7 +14,8 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To determine candidate attribute values according subjective preference. |
 | Input | Dialog history with subjective preference in the latest round, Multimodal context |
-| Output |  Candidate attribute values |
+| Output | Candidate attribute values |
+| Example | Customer: "I prefer color of happiness." → yellow, brown, red |
 | Metrics | Disam F1 / Precision / Recall |
 
 | Sub-Task #2 | Referred Region Understanding |
