@@ -37,6 +37,7 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Goal | To generate the salesperson's utterance in the next dialog round |
 | Input | Dialogue history, Multimodal context |
 | Output | Salesperson's utterance in the next dialog round |
+| Example |  Customer: "I’d like to buy a sofa made by materials obtained from nature" <br> → Salesperson: "You can consider the leather material, which is natural and smooth." |
 | Metrics | BLEU-4 / ROUGH-L / METEOR |
 | **Sub-Task #3-3** | **Multimodal Recommendation - Item Recommendation** |
 | Goal | To predict the target object in the last round of dialog |
