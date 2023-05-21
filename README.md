@@ -29,20 +29,21 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Sub-Task #3-1 | Multimodal Recommendation - Act Prediction |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Goal | To predict the salesperson's act in the next dialog round |
-| Input | Dialogue history, Multimodal context |
+| Input | Dialog history, Multimodal context |
 | Output | Act of salesperson in the next dialog round |
 | Example | Salesperson: "The price $299 is too expensive for me to afford" <br> → Revise Attribute |
 | Metrics | Act F1 |
 | **Sub-Task #3-2** | **Multimodal Recommendation - Response Generation** |
 | Goal | To generate the salesperson's utterance in the next dialog round |
-| Input | Dialogue history, Multimodal context |
+| Input | Dialog history, Multimodal context |
 | Output | Salesperson's utterance in the next dialog round |
 | Example |  Customer: "I’d like to buy a sofa made by materials obtained from nature" <br> → Salesperson: "You can consider the leather material, which is natural and smooth." |
 | Metrics | BLEU-4 / ROUGH-L / METEOR |
 | **Sub-Task #3-3** | **Multimodal Recommendation - Item Recommendation** |
 | Goal | To predict the target object in the last round of dialog |
-| Input | Dialogue history without last round, Multimodal context |
+| Input | Dialog history without last round, Multimodal context |
 | Output | Target object ID |
+| Example | (Dialog history) Salesperson: "What are your thoughts on the black, unadorned overcoat? <@1032>" |
 | Metrics | Recom F1 |
 
 ## Citation
