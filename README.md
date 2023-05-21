@@ -43,7 +43,7 @@ We introduces a new dataset SURE (Multimodal Recommendation Dialog with SUbjecti
 | Goal | To predict the target object in the last round of dialog |
 | Input | Dialog history without last round, Multimodal context |
 | Output | Target object ID |
-| Example | (Dialog history) → Salesperson: "What are your thoughts on the black, unadorned overcoat? <@1032>" |
+| Example | (Dialog history) → Salesperson: "How about the black, unadorned overcoat? <@1032>" |
 | Metrics | Recom F1 |
 
 ## Citation
